@@ -1,0 +1,49 @@
+:root{
+
+}
+
+header{
+    text-align: center;
+    text-decoration: double;
+    border-radius: 50%;
+    border-width: 50%;
+    border-color: rgb(0, 0, 0);
+
+}   
+
+.rcorners4 {
+    border-radius: 15px;
+    background: #f15959;
+    padding: 10%;
+    height: 10%;
+    width: 10%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+nav {
+    position: absolute;
+    right: -20px;
+    border: 5% solid black;
+    border-radius: 30px;
+    background-color: rgb(41, 40, 40);
+    padding: 10%;
+    height: 5%;
+    width: 5%;
+    text: red;
+    display: flex;
+    place-content: flex-end ;
+    align-content: space-evenly;
+}
+
+/*check max and min width in README*/
+@media screen and (max-width:900px) {
+    
+}
+
+/*check max and min width in README*/
+@media screen and (max-width: 900px) and (min-width:500px) {
+    
+}
