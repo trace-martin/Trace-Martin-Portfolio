@@ -9,48 +9,92 @@
 }
 
 nav {
-display: flex;
-align-items: center;
-justify-content: space-evenly;
-padding-top: 50px;
-padding-left: 30px;
-padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.background{
+    background-image: url(../Images/europe-ge49a9f21b_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200vh;
+    height: 100vh;
 }
 
 .heading {
-    color: ;
+    color: white;
+    margin-top: -50px;
     font-size: 100px;
     letter-spacing: 10px;
     font-weight: bolder;
     text-transform: capitalize;
 }
 
-.heading:hover {
-    box-shadow: inset 0px 0px 8px black;
-}
-
 .box {
-    background-color: blueviolet;
+background-color: black;
 }
-
 
 nav ul li {
-    font-size: 25px;
-    list-style-type: circle;
     display: inline-block;
+    font-size: 25px;
     padding: 5px;
+    list-style-type: circle;
 }
 
 nav ul li a{
-    color: black;
-    text-decoration: solid;
+    color: white;
     font-weight: bolder;
+    text-decoration: solid;
 }
 
 nav ul li a:hover{
-    color: red;
-
+    color: white;
+    border-color: black;
+    border-radius: 10px;
 }
+
+.mini {
+    flex: wrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.mini:hover {
+    box-shadow: inset 0px 0px 8px black;
+    border-radius: 30px;
+   
+}
+.showcase {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.hero {
+    background-image: url(/Images/mountain-g690fec59c_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20vh;
+    height: 10vh;
+}
+
+.pbox {
+    width: 5px;
+    height: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-shadow: 10px solid black;
+}
+
+.pbox img {
+    width: 10vh;
+    height: 10vh;
+}
+
 /*check max and min width in README*/
 @media screen and (max-width:900px) {
     
