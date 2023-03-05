@@ -17,7 +17,7 @@ em {
     letter-spacing: 2px;
 }
 
-.dot {
+.fam {
     height: 80px;
     width: 80px;
     background-color: #ffffff;
@@ -32,8 +32,8 @@ em {
     background-size: 130px;
   }
   
-.dot:hover {
-    transform: scale(2);
+.fam:hover {
+   transform:scale(2);
   }
 
 .header {
@@ -57,7 +57,7 @@ em {
     padding-right: 30px;
 }
 
-.header nav ul li {
+.header li {
     display: inline-block;
     font-size: 25px;
     padding: 5px;
@@ -65,16 +65,14 @@ em {
 }
 
 
-nav ul li a{
+nav a{
     color: white;
     font-weight: bolder;
     text-decoration: solid;
 }
-nav ul li a:hover {
-    box-shadow: 2px 2px 2px 2px white;
-    border-radius: 4px;
+nav a:hover {
     transition: 1s;
-    color: rgb(46, 203, 255);
+    color: rgb(255, 46, 46);
 }
 
 .hero {
@@ -109,9 +107,122 @@ nav ul li a:hover {
     border-style: solid;
     border-color: #040404;
     border-radius: 20px;
-    background-color: #95a3b1;
+    background-color: #ffffff;
     flex: wrap;
     flex-wrap: wrap;
     display: block;
     font-size: x-large;
+}
+
+@media (min-width:800px) and (max-width: 1200px) {
+    em {
+        font-size: 5vh;
+        letter-spacing: 1px;
+    }
+    body{
+        background-color: rgb(255, 255, 255);
+        background-image: url(../Images/cubes-2492010.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+    }
+}
+
+@media (min-width:680px) and (max-width: 800px) {
+    em {
+        font-size: 0vh;
+        letter-spacing: 1px;
+    }
+    body{
+        background-color: rgb(255, 255, 255);
+        background-image: url(../Images/cubes-2492010.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+    }
+    .welcome {
+        display: flex;
+        flex: wrap;
+        flex-wrap: wrap;
+        font-size: large;
+        width: 250px;
+        height: 375px;
+        margin-top: 80%;
+        margin-left: 30%;
+        margin-right: 0%;
+        text-align: center;
+        padding: 40px;
+        border-style: solid;
+        border-color: #040404;
+        border-radius: 20px;
+        background-color: #ffffff;
+    }
+    .hero {
+        position: absolute;
+        left: 22vh;
+        margin-top: 30px;
+        width: 30%;
+        height: 40%;
+        padding: 90px;
+        box-shadow: 0 0 10px 2px black;
+        border: 1px solid black;
+        border-radius: 20px;
+    
+        background-image: url(../Images/mountain-g690fec59c_1920.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-transform: capitalize;
+        margin-top: 38px;
+        margin-bottom: 0px;
+        margin-right: 40%;
+        margin-left: auto;
+    }
+}
+
+@media (min-width:00px) and (max-width: 680px) {
+    em {
+        font-size: 0vh;
+    }
+    body{
+        background-color: rgb(255, 255, 255);
+        background-image: url(../Images/cubes-2492010.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+    }
+    .welcome {
+        display: flex;
+        flex: wrap;
+        flex-wrap: wrap;
+        font-size: large;
+        width: 250px;
+        height: 375px;
+        margin-top: 160%;
+        margin-left: 25%;
+        margin-right: 0%;
+        text-align: center;
+        padding: 40px;
+        border-style: solid;
+        border-color: #040404;
+        border-radius: 20px;
+        background-color: #ffffff;
+    }
+
+    .hero {
+        position: absolute;
+        left: 10vh;
+        margin-top: 30px;
+        width: 30%;
+        height: 40%;
+        padding: 90px;
+        box-shadow: 0 0 10px 2px black;
+        border: 1px solid black;
+        border-radius: 20px;
+    
+        background-image: url(../Images/mountain-g690fec59c_1920.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-transform: capitalize;
+        margin-top: 38px;
+        margin-bottom: 0px;
+        margin-right: 40%;
+        margin-left: auto;
+    }
 }
