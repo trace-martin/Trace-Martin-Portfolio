@@ -50,34 +50,27 @@ nav ul li a{
 }
 
 nav ul li a:hover {
-    border-radius: 9px;
     transition: 1s;
     color: rgb(255, 46, 46);
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 2px;
 }
 
 nav::after {
 
 }
 .welcome {
-    flex: wrap;
-    flex-wrap: wrap;
     display: inline-block;
     font-size: x-large;
     width: 150px;
     height: 150px;
     margin-top: 9%;
-    margin-left: 40%;
+    margin-left: 44%;
     margin-right: 0%;
     text-align: center;
     padding: 40px;
     border-style: solid;
     border-color: #040404;
     border-radius: 20px;
-    background-color: #95a3b1;
+    background-color: #ffffff;
 }
 
 .welcome:hover {
@@ -100,7 +93,7 @@ nav::after {
     background-size: 130px;
   }
   
-.dot:hover {
+.fam:hover {
    transform:scale(2);
   }
 
@@ -111,15 +104,82 @@ nav::after {
     background-color: #ffffff;
     border-radius: 50%;
     margin-top: 70px;
-    margin-left: 20px;
+    margin-left: 46.5%;
     background-image: url(../Images/maintenance-2422173_1920.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 300px;
-    z-index: 1;
 }
 /*
 .construction:hover {
     transform-box: ;
 }
 */
+
+@media (min-width:800px) and (max-width: 1200px) {
+    em {
+        font-size: 5vh;
+        letter-spacing: 1px;
+    }
+    body{
+        background-color: rgb(255, 255, 255);
+        background-image: url(../Images/cubes-2492010.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+    }
+  }
+  
+  @media (min-width:680px) and (max-width: 800px) {
+    em {
+        font-size: 0vh;
+        letter-spacing: 1px;
+    }
+    body{
+        background-color: rgb(255, 255, 255);
+        background-image: url(../Images/cubes-2492010.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+    }
+    .welcome {
+        display: flex;
+        flex: wrap;
+        flex-wrap: wrap;
+        font-size: large;
+        width: 250px;
+        height: 35px;
+        margin-left: 25%;
+        text-align: center;
+        padding: 40px;
+        border-style: solid;
+        border-color: #040404;
+        border-radius: 20px;
+        background-color: #ffffff;
+    }
+  }
+  
+  @media (min-width:00px) and (max-width: 680px) {
+    em {
+        font-size: 0vh;
+    }
+    body{
+        background-color: rgb(255, 255, 255);
+        background-image: url(../Images/cubes-2492010.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+    }
+    .welcome {
+        display: flex;
+        flex: wrap;
+        flex-wrap: wrap;
+        font-size: large;
+        width: 250px;
+        height: 35px;
+        margin-left: 25%;
+        text-align: center;
+        padding: 40px;
+        border-style: solid;
+        border-color: #040404;
+        border-radius: 20px;
+        background-color: #ffffff;
+    }
+  }

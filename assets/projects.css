@@ -18,23 +18,25 @@ em {
     font-size: 15vh;
     letter-spacing: 10px;
 }
-.dot {
-    height: 80px;
-    width: 80px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    float: left;
-    margin-top: 70px;
-    margin-left: 20px;
-    z-index: 1;
-    background-image: url(../Images/IMG_0692.JPG);
-    background-position: center;
-    background-size: 130px;
-  }
-  
-.dot:hover {
-    transform: scale(2);
-  }
+.fam {
+  height: 80px;
+  width: 80px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  float: left;
+  margin-top: 70px;
+  margin-left: 20px;
+  z-index: 1;
+  background-image: url(../Images/IMG_0692.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 130px;
+}
+
+.fam:hover {
+ transform:scale(2);
+}
+
 .header {
     padding: 20px;
     margin-top: -50px;
@@ -62,7 +64,7 @@ nav::after{
     padding-right: 30px;
 }
 
-.header nav ul li {
+.header li {
     display: inline-block;
     font-size: 25px;
     padding: 5px;
@@ -70,16 +72,14 @@ nav::after{
 }
 
 
-nav ul li a{
+nav a{
     color: white;
     font-weight: bolder;
     text-decoration: solid;
 }
-nav ul li a:hover {
-    box-shadow: 0 1px 1px 1px white;
-    border-radius: 9px;
-    transition: 1s;
-    color: rgb(46, 203, 255);
+nav a:hover {
+  transition: 1s;
+  color: rgb(255, 46, 46);
 }
 /*
 check max and min width in README
@@ -134,19 +134,90 @@ check max and min width in README
     text-align: center;
 }
 
+.welcome {
+  width: 400px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-left: 35%;  
+  text-align: center;
+  padding: 40px;
+  border-style: solid;
+  border-color: #040404;
+  border-radius: 20px;
+  background-color: #ffffff;
+  flex: wrap;
+  flex-wrap: wrap;
+  display: block;
+  font-size: x-large;
+}
+
+@media (min-width:800px) and (max-width: 1200px) {
+  em {
+      font-size: 5vh;
+      letter-spacing: 1px;
+  }
+  body{
+      background-color: rgb(255, 255, 255);
+      background-image: url(../Images/cubes-2492010.jpg);
+      background-repeat: repeat;
+      background-size: cover;
+  }
+}
+
+@media (min-width:680px) and (max-width: 800px) {
+  em {
+      font-size: 0vh;
+      letter-spacing: 1px;
+  }
+  body{
+      background-color: rgb(255, 255, 255);
+      background-image: url(../Images/cubes-2492010.jpg);
+      background-repeat: repeat;
+      background-size: cover;
+  }
   .welcome {
-    width: 400px;
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: 35%;  
-    text-align: center;
-    padding: 40px;
-    border-style: solid;
-    border-color: #040404;
-    border-radius: 20px;
-    background-color: #95a3b1;
-    flex: wrap;
-    flex-wrap: wrap;
-    display: block;
-    font-size: x-large;
+      display: flex;
+      flex: wrap;
+      flex-wrap: wrap;
+      font-size: large;
+      width: 250px;
+      height: 37px;
+      margin-top: 0%;
+      margin-left: 30%;
+      margin-right: 0%;
+      text-align: center;
+      padding: 40px;
+      border-style: solid;
+      border-color: #040404;
+      border-radius: 20px;
+      background-color: #ffffff;
+  }
+}
+
+@media (min-width:00px) and (max-width: 680px) {
+  em {
+      font-size: 0vh;
+  }
+  body{
+      background-color: rgb(255, 255, 255);
+      background-image: url(../Images/cubes-2492010.jpg);
+      background-repeat: repeat;
+      background-size: cover;
+  }
+  .welcome {
+      display: flex;
+      flex: wrap;
+      flex-wrap: wrap;
+      font-size: large;
+      width: 250px;
+      height: 35px;
+      margin-left: 25%;
+      text-align: center;
+      padding: 40px;
+      border-style: solid;
+      border-color: #040404;
+      border-radius: 20px;
+      background-color: #ffffff;
+  }
+
 }

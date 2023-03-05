@@ -3,6 +3,12 @@
         font-size: 5vh;
         letter-spacing: 1px;
     }
+    body{
+        background-color: rgb(255, 255, 255);
+        background-image: url(../Images/cubes-2492010.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+    }
 }
 
 @media (min-width:00px) and (max-width: 600px) {
@@ -46,5 +52,22 @@
         background-repeat: no-repeat;
         background-size: 300px;
         z-index: 1;
+    }
+    .welcome1 {
+        width: 400px;
+        margin-top: 100px;
+        margin-bottom: 0px;
+        margin-left: 60%;
+        margin-right: auto;  
+        text-align: center;
+        padding: 40px;
+        border-style: solid;
+        border-color: #040404;
+        border-radius: 20px;
+        background-color: #95a3b1;
+        flex: wrap;
+        flex-wrap: wrap;
+        display: absolute;
+        font-size: x-large;
     }
 }
