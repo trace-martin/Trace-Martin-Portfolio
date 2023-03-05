@@ -1,0 +1,169 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive ;
+    box-sizing: content-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    background-image: url(../Images/cubes-2492010.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.dot {
+    height: 80px;
+    width: 80px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    float: left;
+    margin-top: 70px;
+    margin-left: 20px;
+    z-index: 1;
+    background-image: url(../Images/IMG_0692.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 130px;
+  }
+  
+.dot:hover {
+    transform: scale(2);
+  }
+
+.header {
+    padding: 20px;
+    margin-top: -50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.header {
+    font-size: 50px;
+}
+
+/*trying to make a nav bar after scoll down
+nav::after{
+    margin: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+*/
+/* Nav links*/
+.header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.header nav ul li {
+    display: inline-block;
+    font-size: 25px;
+    padding: 5px;
+    list-style-type: none;
+}
+
+
+nav ul li a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: solid;
+}
+nav ul li a:hover {
+    box-shadow: 0 1px 1px 1px white;
+    border-radius: 9px;
+    transition: 1s;
+    color: rgb(46, 203, 255);
+}
+.center {
+    width: 400px; 
+    margin: auto; 
+    text-align: center;
+    
+    /* Optional Styling */
+    padding: 20px;
+    border-style: solid;
+    border-color: #B6C7D6;
+    border-radius: 20px;
+    background-color: #EAF0F6;
+   
+}
+
+.contactMe {
+    list-style-type: none;
+    display: inline;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 9vh;
+}
+/*contact infor*/
+.contactInfo {
+    list-style-type: none;
+    display: inline;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 3vh;
+    margin: 10px 100px;
+}
+
+em {
+    font-size: 15vh;
+    letter-spacing: 10px;
+}
+
+.welcome {
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 35%;  
+    text-align: center;
+    padding: 40px;
+    border-style: solid;
+    border-color: #040404;
+    border-radius: 20px;
+    background-color: #95a3b1;
+    flex: wrap;
+    flex-wrap: wrap;
+    display: block;
+    font-size: x-large;
+}
+.emailMe {
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 5%;  
+    text-align: center;
+    padding: 40px;
+    border-style: solid;
+    border-color: #040404;
+    border-radius: 20px;
+    background-color: #95a3b1;
+    flex: wrap;
+    flex-wrap: wrap;
+    display: block;
+    font-size: x-large;
+}
+
+.gitHub {
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 65%;  
+    text-align: center;
+    padding: 40px;
+    border-style: solid;
+    border-color: #040404;
+    border-radius: 20px;
+    background-color: #95a3b1;
+    flex: wrap;
+    flex-wrap: wrap;
+    display: block;
+    font-size: x-large;
+}
