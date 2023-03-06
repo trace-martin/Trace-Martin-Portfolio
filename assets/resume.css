@@ -71,11 +71,13 @@ nav::after {
     border-color: #040404;
     border-radius: 20px;
     background-color: #ffffff;
+    transition: all .5s ease-in-out;
 }
 
 .welcome:hover {
     cursor: pointer;
     transform: scale(1.5);
+    box-shadow: inset 0px 0px 20px rgb(78, 78, 78), 0 0 15px rgb(255, 0, 0);
 }
 
 .fam {
@@ -110,11 +112,6 @@ nav::after {
     background-repeat: no-repeat;
     background-size: 300px;
 }
-/*
-.construction:hover {
-    transform-box: ;
-}
-*/
 
 @media (min-width:800px) and (max-width: 1200px) {
     em {

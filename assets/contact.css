@@ -99,7 +99,13 @@ em {
     flex-wrap: wrap;
     display: block;
     font-size: x-large;
+    transition: all .5s ease-in-out;
 }
+
+.welcome:hover {
+    box-shadow: inset 0px 0px 20px rgb(78, 78, 78), 0 0 15px rgb(255, 0, 0);
+}
+
 .emailMe {
     width: 400px;
     margin-top: 30px;
@@ -115,8 +121,11 @@ em {
     flex-wrap: wrap;
     display: block;
     font-size: x-large;
+    transition: all .5s ease-in-out;
 }
-
+.emailMe:hover {
+    box-shadow: inset 0px 0px 20px rgb(78, 78, 78), 0 0 15px rgb(255, 0, 0);
+}
 .gitHub {
     width: 400px;
     margin-top: 30px;
@@ -132,6 +141,10 @@ em {
     flex-wrap: wrap;
     display: block;
     font-size: x-large;
+    transition: all .5s ease-in-out;
+}
+.gitHub:hover {
+    box-shadow: inset 0px 0px 20px rgb(78, 78, 78), 0 0 15px rgb(255, 0, 0);
 }
 
 @media (min-width:800px) and (max-width: 1200px) {

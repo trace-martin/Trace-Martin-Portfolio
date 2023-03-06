@@ -117,7 +117,7 @@ check max and min width in README
      .box:hover {
      filter: blur(3px);
      opacity: 1;
-     transform: scale(1);
+     transform: scale(1.1);
      box-shadow: none;
      cursor: pointer;
   }
@@ -125,14 +125,6 @@ check max and min width in README
   .box:first-child {
     grid-row: 1 / 3;
   }
-
-.box:hover :not(image){
-    position: absolute;
-    top: 30%;
-    z-index: 1;
-    color: red;
-    text-align: center;
-}
 
 .welcome {
   width: 400px;
@@ -149,7 +141,12 @@ check max and min width in README
   flex-wrap: wrap;
   display: block;
   font-size: x-large;
+  transition: all .5s ease-in-out;
 }
+.welcome:hover {
+    box-shadow: inset 0px 0px 20px rgb(78, 78, 78), 0 0 15px rgb(255, 0, 0);
+}
+
 
 @media (min-width:800px) and (max-width: 1200px) {
   em {
