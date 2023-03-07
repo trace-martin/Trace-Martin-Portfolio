@@ -20,5 +20,4 @@ To navigate the page use the nav bar at the top right section of the screen. Eac
 
 ### Known Issues
 <hr>
-The code throughout each page needs to be refracted and some lines of code need to be removed. Will address when 
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+The code throughout each page needs to be refracted and some lines of code need to be removed. Will address at a later time.
