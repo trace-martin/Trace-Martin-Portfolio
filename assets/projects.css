@@ -79,6 +79,7 @@ nav a{
 nav a:hover {
   transition: 1s;
   color: rgb(255, 46, 46);
+  text-decoration: underline;
 }
 /*
 check max and min width in README
@@ -115,9 +116,13 @@ check max and min width in README
 .box:hover {
   transform: scale(1.1);
 }
+a:link {
+  text-decoration: none;
+}
 a:hover {
   transform: scale(2);
   color: red;
+  text-decoration: underline;
 }
   .box1 {
   background: #000000;
