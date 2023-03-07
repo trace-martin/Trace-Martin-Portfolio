@@ -93,11 +93,27 @@ nav a:hover {
     flex-wrap: wrap;
     display: block;
     font-size: x-large;
-    transition: all .5s ease-in-out;
+    transition: 1s; height: 3s;
 }
 
 .welcome:hover {
     box-shadow: inset 0px 0px 100px rgb(34, 34, 34), 0 0 15px rgb(255, 0, 0);
+}
+
+
+em:after{
+  content: Trace;
+  width: 0;
+  height: 3px;
+  background: white;
+  position: absolute;
+  left:0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+em:hover::after{
+  width: 100%;
 }
 
 @media (min-width:800px) and (max-width: 1200px) {
