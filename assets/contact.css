@@ -44,15 +44,6 @@ body{
     font-size: 50px;
 }
 
-/*trying to make a nav bar after scoll down
-nav::after{
-    margin: 0;
-    position: fixed;
-    right: 0;
-    top: 0;
-}
-*/
-/* Nav links*/
 .header nav {
     display: flex;
     align-items: center;
@@ -99,7 +90,6 @@ em {
     flex-wrap: wrap;
     display: block;
     font-size: x-large;
-    transition: all .5s ease-in-out;
 }
 
 .welcome:hover {
@@ -121,7 +111,6 @@ em {
     flex-wrap: wrap;
     display: block;
     font-size: x-large;
-    transition: all .5s ease-in-out;
 }
 .emailMe:hover {
     box-shadow: inset 0px 0px 20px rgb(78, 78, 78), 0 0 15px rgb(255, 0, 0);
@@ -141,7 +130,6 @@ em {
     flex-wrap: wrap;
     display: block;
     font-size: x-large;
-    transition: all .5s ease-in-out;
 }
 .gitHub:hover {
     box-shadow: inset 0px 0px 20px rgb(78, 78, 78), 0 0 15px rgb(255, 0, 0);
