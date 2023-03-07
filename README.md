@@ -39,6 +39,7 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 <br>
+
 # Preview
 
 ![Screenshot (4)](https://user-images.githubusercontent.com/123417800/223345690-444db926-3a59-4597-bf4a-f138243f6d2f.png)
