@@ -71,7 +71,6 @@ nav::after {
     border-color: #040404;
     border-radius: 20px;
     background-color: #ffffff;
-    transition: all .5s ease-in-out;
 }
 
 .welcome:hover {
@@ -88,7 +87,6 @@ nav::after {
     float: left;
     margin-top: 5%;
     margin-left: 5%;
-    z-index: 1;
     background-image: url(../Images/IMG_0692.JPG);
     background-position: center;
     background-repeat: no-repeat;
