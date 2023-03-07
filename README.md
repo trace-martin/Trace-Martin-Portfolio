@@ -37,8 +37,8 @@ WHEN I click on the images of the applications
 THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
-'''
-
+```
+<br>
 # Preview
 ![Screenshot (4)](https://user-images.githubusercontent.com/123417800/223329732-264390eb-e446-412c-b4f8-038daea92560.png)
 <br><br>
