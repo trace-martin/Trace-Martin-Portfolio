@@ -2,7 +2,7 @@
 
 ## Deployed Page
 <hr>
-https://trace-martin.github.io/portfolio
+[Come check out my portfolio!](https://trace-martin.github.io/portfolio)
 <hr>
 
 ## A responsive Portfolio showcasing my works.
@@ -11,6 +11,7 @@ During the creation of my portfolio I was able to gain a better understanding of
 Through this project I have grown my understanding of how code behaves and interacts on a webpage and within the files. I will continue to learn and apply lessons from class to the Portfolio as the Bootcamp at DU continues.
 
 # Preview
+![Screenshot (4)](https://user-images.githubusercontent.com/123417800/223329732-264390eb-e446-412c-b4f8-038daea92560.png)
 <br><br>
 ## User Instructions
 <hr>
