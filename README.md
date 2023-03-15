@@ -50,6 +50,12 @@ THEN I am presented with a responsive layout that adapts to my viewport
 To navigate the page use the nav bar at the top right section of the screen. Each nav link will take you to the corresponding page to view the information relating to the title.<br> 
 <br>
 
+### Coding Help
+[Build a Complete Personal Portfolio Website Using Only HTML And CSS | Pure HTML And CSS](https://www.youtube.com/watch?v=lgeoAUvoRJU) <br>
+-for nav/header(will change in the future)<br>
+[2x2 Box beside 1 big 2x2 size box using css](https://stackoverflow.com/questions/43626022/2x2-box-beside-1-big-2x2-size-box-using-css) <br>
+-for project display(will change in the future)<br>
+
 ### Known Issues
 <hr>
 The code throughout each page needs to be refracted and some lines of code need to be removed. Will address at a later time.
