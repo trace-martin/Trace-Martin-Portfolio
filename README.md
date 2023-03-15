@@ -2,7 +2,9 @@
 
 ## Deployed Page
 <hr>
+
 [Come check out my portfolio!](https://trace-martin.github.io/Trace-Martin-Portfolio/)
+
 <hr>
 
 ## A responsive Portfolio showcasing my works.
