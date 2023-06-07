@@ -113,7 +113,29 @@ check max and min width in README
     background-size: cover;
   }
 
-.box:hover {
+  .box2 {
+    background: #000000;
+    margin: 2px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../Images/hire-hound-high-resolution-logo-color-on-transparent-background.jpg);
+    background-size: cover;
+  }
+
+  .box3 {
+    background: #000000;
+    margin: 2px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../Images/Capture.PNG);
+    background-size: cover;
+  }
+
+.box:hover, .box2:hover, .box3:hover{
   transform: scale(1.1);
 }
 a:link {
